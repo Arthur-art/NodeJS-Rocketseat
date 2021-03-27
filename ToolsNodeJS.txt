@@ -1,0 +1,6 @@
+Tools -
+
+//Instale o node
+- https://nodejs.org/en/
+- node -v
+
