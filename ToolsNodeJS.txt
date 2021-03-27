@@ -4,3 +4,7 @@ Tools -
 - https://nodejs.org/en/
 - node -v
 
+//Instale o npm
+- npm -v
+- npm init -y
+
