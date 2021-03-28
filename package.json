@@ -4,16 +4,23 @@
   "description": "study node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Arthur-art/NodeJS-Rocketseat.git"
   },
-  "author": "",
+  "author": "Arthur",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Arthur-art/NodeJS-Rocketseat/issues"
   },
-  "homepage": "https://github.com/Arthur-art/NodeJS-Rocketseat#readme"
+  "homepage": "https://github.com/Arthur-art/NodeJS-Rocketseat#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "opn": "^6.0.0"
+  },
+  "devDependencies": {
+    "cfonts": "^2.9.1"
+  }
 }
