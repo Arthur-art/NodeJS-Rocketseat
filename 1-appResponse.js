@@ -1,6 +1,7 @@
 //Escrevendo na saida do terminal 
 //process.stdout.write("Hello World\n")
 const questions = [
+    "",
     "Nome",
     "Sobrenome",
     "Idade",
@@ -18,22 +19,21 @@ process.stdin.on("data", data=>{
     if(response.length < questions.length){
         ask(response.length)
     }else{
-        console.log(response)
         process.exit()
     }
 })
 
 process.on('exit', ()=>{
     console.log(`
-        Nome : ${response[0]}
+        Nome : ${response[1]}
         
-        Sobrenome: ${response[1]}
+        Sobrenome: ${response[2]}
 
-        Idade: ${response[2]}
+        Idade: ${response[3]}
         
-        Pais: ${response[3]}
+        Pais: ${response[4]}
         
-        Profissao: ${response[4]}
+        Profissao: ${response[5]}
         
     `)
 })
